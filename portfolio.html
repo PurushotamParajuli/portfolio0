@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purushotam Parajuli</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="icon" href="logo-removebg-preview.png" type="image/png">
+</head>
+<body>
+    <!-- -------------------------------Header-------------------------------- -->
+   <div id="header">
+    <div class="container">
+        <div class="head">
+            <div class="img"><a href="#header"><img src="logo.png"></a></div>
+            <nav>
+                <ul id="slidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <div class="header-text">
+            <p>Web Designer</p>
+            <h1>Hi, I'm <span>Purushotam</span> <br> Parajuli</h1>
+        </div>
+        <div class="btn"><a href="#contact">Hire Me</a></div>
+    </div>
+   </div>
+   <!-- ---------------------------------About---------------------------- -->
+   <section id="about">
+        <div class="container">
+            <div class="about-main">
+                <div class="about-img">
+                    <img src="3DLUTmobile_20210405_094346.jpeg">
+                </div>
+                <div class="about-text">
+                    <h2>Who am i?</h2>
+                    <h1>I'm Purushotam Parajuli. I'm a Web Designer.</h1>
+                    <p class="para">I work as a web designer. I absolutely love creating appealing and user friendly websites for a variety of clients, in different industries. 
+                        My skills lie in both artistry and technical knowledge allowing me to design, code and enhance websites using tools such as Photoshop, HTML, 
+                        CSS and JavaScript.</p>
+                        <hr color="gray">
+                        <div class="info">
+                            <div class="name">
+                                <p class="para1">Name: &nbsp <span>Purushotam Parajuli</span></p>
+                                <p class="para1">Age: &nbsp <span>23</span></p>
+                            </div>
+                            <div class="from">
+                                <p class="para2">From: &nbsp <span>Kathmandu, Nepal</span></p>
+                                <p class="para2">Email: &nbsp <span>parajulipurushotam8@gmail.com</span></p>
+                            </div>
+                        </div>
+                        <div class="cv"><a href="cv.pdf" download>Download CV</a></div>
+                </div>
+            </div>
+        </div>
+   </section>
+   <!-- -------------------------Skill------------------------- -->
+   <section id="skills">
+        <div class="container">
+            <h1 class="my-skill">My Skills</h1>
+            <div class="skill-list">
+                <div class="html">
+                    <span><img src="800px-HTML5_Badge.svg.png"></span>
+                    <h1>HTML</h1>
+                </div>
+                <div class="css">
+                    <img src="CSS3_logo.svg.png">
+                    <h1>CSS</h1>
+                </div>
+                <div class="javascript">
+                    <img src="Javascript_badge.svg.png">
+                    <h1>JavaScript</h1>
+                </div>
+            </div>
+        </div>
+   </section>
+   <!-- ----------------------------Portfolio------------------------ -->
+   <section id="portfolio">
+    <div class="container">
+        <h1 class="my-work">My Portfolio</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="work-1.png">
+            <div class="layer">
+                <h3>NGO Project</h3>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="work-2.png">
+            <div class="layer">
+                <h3>Corporate Project</h3>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="work-3.png">
+            <div class="layer">
+                <h3>Corporate Project</h3>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="work-4.png">
+            <div class="layer">
+                <h3>Travel & Tour Project</h3>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="work-5.png">
+            <div class="layer">
+                <h3>E-Commerce</h3>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="work-6.png">
+            <div class="layer">
+                <h3>Travel Landing Page Project</h3>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    </div>
+   </section>
+   <!-- ------------------------Contact--------------------->
+   <section id="contact">
+    <div class="container">
+        <h1 class="contact-text">Get in Touch</h1>
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="contact-1">Message Me</h1>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn1">Send Message</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            <div class="contact-right">
+                <h1 class="contact-2">Contact Info</h1>
+                <p class="para-info">Always available for freelance work if the right project comes along, Feel free to contact me!</p>
+                <p><i class="fa-solid fa-paper-plane"></i> <span>parajulipurushotam8@gmail.com</span></p>
+                <p><i class="fa-solid fa-phone"></i> <span>+9779824729794</span></p>
+                <div class="social">
+                    <a href="https://www.facebook.com/purushotam.parajuli.98"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/parajuli.01/"><i class="fa-brands fa-square-instagram"></i></i></a>
+                    <a href="https://www.linkedin.com/in/purushotam-parajuli"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <footer>
+    <div class="container">
+        <div class="footer">
+            <p> © Copyright 2023  &nbsp&nbsp  |  &nbsp&nbsp  Developed by Purushotam Parajuli   &nbsp&nbsp  |   &nbsp&nbsp All rights reserved </p>
+        </div>
+    </div>
+   </footer>
+</body>
+<script>
+    
+    var slidemenu = document.getElementById("slidemenu");
+
+    function openmenu(){
+        slidemenu.style.right= "0";
+    }
+    function closemenu(){
+        slidemenu.style.right= "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwIhq2q4l7keS0_h8G1FYRdX6zzZ-SPiit3imztOiM8GZXJpcjP6DzsNSR_GKKZVZbS/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Sucessfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+<script src="https://kit.fontawesome.com/e30ddf7728.js" crossorigin="anonymous"></script>
+</html>
